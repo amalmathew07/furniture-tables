@@ -140,6 +140,7 @@ const FurnitureStore: React.FC = () => {
 
   const [activeCategory, setActiveCategory] = useState(null);
   const hasSetInitialCategoryRef = useRef(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const determineInitialActiveCategory = () => {
@@ -178,6 +179,7 @@ const FurnitureStore: React.FC = () => {
       }
     });
 
+    setIsScrolled(window.scrollY > 0);
     setActiveCategory(currentCategory);
   };
 
@@ -199,8 +201,8 @@ const FurnitureStore: React.FC = () => {
   return (
     <div className="body-class">
         <h1 className="h1-class">Tables</h1>
-        <span className="span-class">A perfect pairing to your sofa.</span>
-      <div className="header-menu">
+      <span className="span-class">A perfect pairing to your sofa.</span>
+      <div className={`header-menu ${isScrolled ? "scrolled" : ""}`}>
         {categories.map((category) => (
           <div
             key={category}
