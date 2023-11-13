@@ -9,12 +9,17 @@
 }
 
 @font-face {
+  font-family: "spanfontbold";
+  src: url("../public/fonts/Larsseit/Larsseit-Bold.otf") format("opentype");
+}
+
+@font-face {
   font-family: "SubHeaderFont";
   src: url("../public/fonts/QuincyCF/QuincyCF-Thin.otf") format("opentype");
 }
 
 .furniture-store {
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -40,7 +45,7 @@ h1 {
   width: fit-content;
   border-radius: 24px;
   margin-left: 250px;
-  transition: all 0.15s ease-in-out 0s; 
+  transition: all 0.15s ease-in-out 0s;
 }
 
 .scrolled {
@@ -49,8 +54,9 @@ h1 {
   top: 0px;
   margin-top: 30px;
   background: rgb(236, 235, 231);
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   z-index: 9999999;
+  margin-left: 190px;
 }
 
 .scrolled::before {
@@ -60,8 +66,9 @@ h1 {
   width: 100%;
   position: fixed;
   top: 0;
-  background: rgba(255, 255, 255, 1); 
-  z-index: 9999998; 
+  background: rgba(255, 255, 255, 1);
+  z-index: 9999998;
+  margin-left: -100px;
 }
 .category-item {
   cursor: pointer;
@@ -96,25 +103,44 @@ h1 {
 
 .furniture-item img {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.furniture-details {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
+  height: 320px;
+  border-radius: 24px;
 }
 
 .furniture-name {
-  font-weight: bold;
+  font-family: spanfontbold;
+  font-size: 17px;
 }
 
 .furniture-price {
-  font-size: 0.8em;
+  font-size: 15px;
+  max-width: 100px;
+  font-family: spanfont;
+  color: rgb(83, 84, 138);
+  display: inline;
+}
+
+.furniture-customize {
+  font-size: 15px;
+  max-width: 100px;
+  font-family: spanfont;
+  color: rgb(83, 84, 138);
+}
+
+.furniture-customize-inline {
+  font-size: 15px;
+  max-width: 100px;
+  font-family: spanfont;
+  color: rgb(83, 84, 138);
+  display: inline;
+}
+
+.furniture-discount {
+  font-size: 15px;
+  max-width: 100px;
+  font-family: spanfontbold;
+  color: rgb(179, 92, 30);
+  display: inline;
 }
 
 .h1-class {
@@ -133,8 +159,6 @@ h1 {
   margin-left: 250px;
 }
 
-
-  
 .sub-heading {
   font-family: HeaderFont;
   color: rgb(43, 44, 110);
@@ -143,14 +167,45 @@ h1 {
   margin-bottom: 10px;
   margin-top: 0px;
 }
-  
-  @media (max-width: 1280px) {
-    .sub-heading {
-      font-size: 32px;
-      text-align: left;
-    }
+
+@media (max-width: 1280px) {
+  .sub-heading {
+    font-size: 32px;
+    text-align: left;
   }
-  
-  .body-class {
-    background-color: white;
-  }
+}
+
+.body-class {
+  background-color: white;
+}
+.image-container {
+  width: 100%;
+  height: 320px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px solid rgb(236, 235, 231);
+}
+
+.image-container img {
+  width: 100%;
+  height: 320px;
+  border: 10px black;
+}
+
+.furniture-details {
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.furniture-info {
+  border-radius: 8px;
+}
+
+.customize-link {
+  text-decoration: none;
+  font-family: spanfontbold;
+  color: rgb(105, 162, 255);
+}
