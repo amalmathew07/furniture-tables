@@ -46,6 +46,7 @@ h1 {
   border-radius: 24px;
   margin-left: 250px;
   transition: all 0.15s ease-in-out 0s;
+  margin-left: 180px;
 }
 
 .scrolled {
@@ -70,11 +71,10 @@ h1 {
   z-index: 9999998;
   margin-left: -100px;
 }
+
 .category-item {
   cursor: pointer;
-  padding: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 5px 15px;
 }
 
 .category-item.active {
@@ -112,22 +112,10 @@ h1 {
   font-size: 17px;
 }
 
-.furniture-price {
-  font-size: 15px;
-  max-width: 100px;
-  font-family: spanfont;
-  color: rgb(83, 84, 138);
-  display: inline;
-}
-
-.furniture-customize {
-  font-size: 15px;
-  max-width: 100px;
-  font-family: spanfont;
-  color: rgb(83, 84, 138);
-}
-
-.furniture-customize-inline {
+.furniture-price,
+.furniture-customize,
+.furniture-customize-inline,
+.furniture-discount {
   font-size: 15px;
   max-width: 100px;
   font-family: spanfont;
@@ -136,15 +124,15 @@ h1 {
 }
 
 .furniture-discount {
-  font-size: 15px;
-  max-width: 100px;
   font-family: spanfontbold;
   color: rgb(179, 92, 30);
-  display: inline;
 }
 
 .h1-class {
-  margin: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -110px;
+  margin-top: 0;
   font-size: 60px;
   font-family: HeaderFont;
   color: rgb(43, 44, 110);
@@ -154,9 +142,9 @@ h1 {
 .span-class {
   color: rgb(25, 20, 43);
   margin-inline-end: 1230px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: spanfont;
-  margin-left: 250px;
+  margin-left: 140px;
 }
 
 .sub-heading {
@@ -165,7 +153,7 @@ h1 {
   font-size: 52px;
   text-align: left;
   margin-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 @media (max-width: 1280px) {
@@ -178,6 +166,7 @@ h1 {
 .body-class {
   background-color: white;
 }
+
 .image-container {
   width: 100%;
   height: 320px;
@@ -208,4 +197,58 @@ h1 {
   text-decoration: none;
   font-family: spanfontbold;
   color: rgb(105, 162, 255);
+}
+
+@media (max-width: 768px) {
+  .furniture-item {
+    width: 100%; 
+  }
+  .header-menu {
+    margin-left: 0;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .category-section {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .span-class {
+    margin-left: -150px;
+    margin-inline-end: 0;
+  }
+
+  .scrolled {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .furniture-item {
+    width: 100%; 
+  }
+  .header-menu {
+    margin-left: 0;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .category-section {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .span-class {
+    margin-left: -150px;
+    margin-inline-end: 0;
+  }
+
+  .scrolled {
+    margin-left: 0;
+  }
 }
