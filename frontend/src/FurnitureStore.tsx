@@ -304,13 +304,17 @@ const FurnitureStore: React.FC = () => {
                     }`}
                     data-category={item.category}
                   >
-                    <div className="image-container">
-                      <img src={item.image} alt={item.name} />
-                    </div>
+                    <a href={""}>
+                      <div className="image-container">
+                        <img src={item.image} alt={item.name} />
+                      </div>
+                    </a>
                     <div className="furniture-details">
                       <div className="furniture-info">
                         <div className="furniture-name">{item.name}</div>
-                        <div className="furniture-price">{item.price}&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                        <div className="furniture-price">
+                          {item.price}&nbsp;&nbsp;|&nbsp;&nbsp;
+                        </div>
                         {item.discount ? (
                           <div className="furniture-discount">
                             <div className="furniture-discount">
