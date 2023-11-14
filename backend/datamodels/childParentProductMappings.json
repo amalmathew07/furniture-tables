@@ -1,8 +1,8 @@
 [
-  { "id": 1, "name": "Red Roses Bouquet", "product_id": [1, 4], "quantity": 1 },
+  { "id": 1, "name": "Red Roses Bouquet", "product_id": [1, 4, 5], "quantity": 1 },
   { "id": 2, "name": "Box of chocolates", "product_id": [1, 4], "quantity": 1 },
   { "id": 3, "name": "Love card", "product_id": [1, 4], "quantity": 1 },
-  { "id": 4, "name": "Women’s perfume", "product_id": [1], "quantity": 1 },
+  { "id": 4, "name": "Women’s perfume", "product_id": [1, 5], "quantity": 1 },
   { "id": 5, "name": "Birthday cupcake", "product_id": [2, 4], "quantity": 1 },
   { "id": 6, "name": "$100 Visa Gift Card", "product_id": [2], "quantity": 1 },
   { "id": 7, "name": "Birthday card", "product_id": [2, 4], "quantity": 1 },

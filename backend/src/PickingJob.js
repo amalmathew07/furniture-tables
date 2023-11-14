@@ -4,7 +4,7 @@ class PickingJob {
   }
 
   // Picking job: Looping through the orders and calculating the number of items
-  // per order by mapping with the child relation ship data model
+  // per order by mapping with the child relationship data model
   generatePickingList() {
     const pickingList = {};
 
@@ -12,7 +12,14 @@ class PickingJob {
       order.line_items.forEach((lineItem) => {
         const lineItemMappings = this.dataManager.getChildProductsForBox(lineItem.product_id);
         lineItemMappings.forEach((subItem) => {
-            pickingList[subItem.name] = (pickingList[subItem.name] || 0) + lineItem.quantity;
+          const itemId = subItem.id;
+          const itemName = subItem.name;
+
+          if (!pickingList[itemId]) {
+            pickingList[itemId] = { name: itemName, quantity: 0 };
+          }
+
+          pickingList[itemId].quantity += lineItem.quantity;
         });
       });
     });
@@ -20,4 +27,5 @@ class PickingJob {
     return pickingList;
   }
 }
+
 module.exports = PickingJob;
