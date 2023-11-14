@@ -1,0 +1,8 @@
+[
+    { "product_id": 1, "product_name": "Valentines Box", "price": 75 },
+    { "product_id": 2, "product_name": "Birthday Box", "price": 50 },
+    { "product_id": 3, "product_name": "Client Gift Box", "price": 100 },
+    { "product_id": 4, "product_name": "Valentine and Birthday Box Combo", "price": 150 },
+    { "product_id": 5, "product_name": "Valentine and Client Box Combo", "price": 150 }
+  ]
+  

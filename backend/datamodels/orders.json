@@ -1,0 +1,356 @@
+[
+  {
+    "order_id": 1,
+    "order_total": 150,
+    "order_date": "2023-11-09",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "John Smith",
+    "customer_email": "john@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 2,
+    "order_total": 200,
+    "order_date": "2023-11-09",
+    "shipping_address": "100 Queen Street East",
+    "customer_name": "Rob Smith",
+    "customer_email": "rob@example.com",
+    "line_items": [
+      {
+        "line_item_id": 3,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "order_id": 3,
+    "order_total": 120,
+    "order_date": "2023-11-09",
+    "shipping_address": "100 King Street East",
+    "customer_name": "Dan Smith",
+    "customer_email": "dan@example.com",
+    "line_items": [
+      {
+        "line_item_id": 4,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 2
+      }
+    ]
+  },
+
+  {
+    "order_id": 4,
+    "order_total": 150,
+    "order_date": "2023-11-09",
+    "shipping_address": "100 King Street West",
+    "customer_name": "Helen Smith",
+    "customer_email": "helen@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 5,
+    "order_total": 150,
+    "order_date": "2023-11-10",
+    "shipping_address": "110 Dundas Street East",
+    "customer_name": "Kate Smith",
+    "customer_email": "kate@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 6,
+    "order_total": 150,
+    "order_date": "2023-11-10",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "John Smith",
+    "customer_email": "john@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 7,
+    "order_total": 150,
+    "order_date": "2023-11-10",
+    "shipping_address": "600 Dundas Street East",
+    "customer_name": "Logan Smith",
+    "customer_email": "logan@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 8,
+    "order_total": 150,
+    "order_date": "2023-11-10",
+    "shipping_address": "107 King Street East",
+    "customer_name": "Levi Smith",
+    "customer_email": "levi@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "order_id": 9,
+    "order_total": 150,
+    "order_date": "2023-11-11",
+    "shipping_address": "91 Lester Street East",
+    "customer_name": "Daymond Smith",
+    "customer_email": "day@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 10,
+    "order_total": 150,
+    "order_date": "2023-11-11",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "Rose Smith",
+    "customer_email": "rose@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "order_id": 11,
+    "order_total": 150,
+    "order_date": "2023-11-12",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "John Smith",
+    "customer_email": "john@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "order_id": 12,
+    "order_total": 150,
+    "order_date": "2023-11-12",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "John Smith",
+    "customer_email": "john@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 13,
+    "order_total": 150,
+    "order_date": "2023-11-12",
+    "shipping_address": "100 Dundas Street East",
+    "customer_name": "Tessa Smith",
+    "customer_email": "tessa@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 5,
+        "product_name": "Valentine and Client Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 14,
+    "order_total": 150,
+    "order_date": "2023-11-12",
+    "shipping_address": "981 James Street East",
+    "customer_name": "Ron Smith",
+    "customer_email": "ron@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "order_id": 15,
+    "order_total": 150,
+    "order_date": "2023-11-12",
+    "shipping_address": "110 Dundas Street West",
+    "customer_name": "Ray Smith",
+    "customer_email": "Ray@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 2,
+        "product_name": "Birthday Box",
+        "quantity": 1
+      },
+      {
+        "line_item_id": 3,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 2
+      }
+    ]
+  },
+
+  {
+    "order_id": 16,
+    "order_total": 150,
+    "order_date": "2023-11-13",
+    "shipping_address": "100 Weber Street East",
+    "customer_name": "Logan Smith",
+    "customer_email": "logan@example.com",
+    "line_items": [
+      {
+        "line_item_id": 1,
+        "product_id": 1,
+        "product_name": "Valentines Box",
+        "quantity": 10
+      },
+      {
+        "line_item_id": 2,
+        "product_id": 4,
+        "product_name": "Valentine and Birthday Box Combo",
+        "quantity": 20
+      }
+    ]
+  }
+]

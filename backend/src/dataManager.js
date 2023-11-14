@@ -15,20 +15,20 @@ class DataManager {
     this.orders = orderDate
       ? this.filterOrdersByDate(orderDate)
       : JSON.parse(
-          fs.readFileSync(path.join(__dirname, "orders.json"), "utf-8")
+          fs.readFileSync(path.join(__dirname, "../datamodels/orders.json"), "utf-8")
         );
   }
 
   loadProductsData() {
     this.products = JSON.parse(
-      fs.readFileSync(path.join(__dirname, "products.json"), "utf-8")
+      fs.readFileSync(path.join(__dirname, "../datamodels/products.json"), "utf-8")
     );
   }
 
   loadChildParentProductMapping() {
     this.childParentProductMapping = JSON.parse(
       fs.readFileSync(
-        path.join(__dirname, "childParentProductMappings.json"),
+        path.join(__dirname, "../datamodels/childParentProductMappings.json"),
         "utf-8"
       )
     );
@@ -40,13 +40,13 @@ class DataManager {
 
   filterOrdersByDate(orderDate) {
     return JSON.parse(
-      fs.readFileSync(path.join(__dirname, "orders.json"), "utf-8")
+      fs.readFileSync(path.join(__dirname, "../datamodels/orders.json"), "utf-8")
     ).filter((ele) => ele.order_date === orderDate);
   }
 
-  getChildProductsForBox(box) {
+  getChildProductsForBox(id) {
     return this.childParentProductMapping.filter(
-      (ele) => ele.product_id === box
+      (ele) => ele.product_id.includes(id)
     );
   }
 

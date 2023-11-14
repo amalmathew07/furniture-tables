@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const WarehouseAutomation = require('./warehouseManager.js');
+const WarehouseAutomation = require('./warehouseAutomation.js');
 const DataManager = require('./dataManager');
 
 const app = express();
@@ -18,5 +18,5 @@ app.get('/api/warehouse', (req, res) => {
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`Server is newly running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
