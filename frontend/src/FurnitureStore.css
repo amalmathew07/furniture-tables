@@ -112,8 +112,14 @@ h1 {
   font-size: 17px;
 }
 
+.furniture-customize {
+  font-size: 15px;
+  max-width: 100px;
+  font-family: spanfont;
+  color: rgb(83, 84, 138);
+}
+
 .furniture-price,
-.furniture-customize,
 .furniture-customize-inline,
 .furniture-discount {
   font-size: 15px;
