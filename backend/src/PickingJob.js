@@ -1,8 +1,10 @@
-class PickingTeamAutomation {
+class PickingJob {
   constructor(dataManager) {
     this.dataManager = dataManager;
   }
 
+  // Picking job: Looping through the orders and calculating the number of items
+  // per order by mapping with the child relation ship data model
   generatePickingList() {
     const pickingList = {};
 
@@ -10,8 +12,7 @@ class PickingTeamAutomation {
       order.line_items.forEach((lineItem) => {
         const lineItemMappings = this.dataManager.getChildProductsForBox(lineItem.product_id);
         lineItemMappings.forEach((subItem) => {
-            const key = subItem.name; // Assuming 'name' is the property you want to use
-            pickingList[key] = (pickingList[key] || 0) + lineItem.quantity;
+            pickingList[subItem.name] = (pickingList[subItem.name] || 0) + lineItem.quantity;
         });
       });
     });
@@ -19,4 +20,4 @@ class PickingTeamAutomation {
     return pickingList;
   }
 }
-module.exports = PickingTeamAutomation;
+module.exports = PickingJob;

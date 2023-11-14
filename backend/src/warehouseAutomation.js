@@ -1,7 +1,9 @@
-const PackingTeamAutomation = require("./PackingJob");
-const PickingTeamAutomation = require("./PickingJob");
+const PackingJob = require("./PackingJob");
+const PickingJob = require("./PickingJob");
 
+// An automation class which initiates picking and packing
 class WarehouseAutomation {
+  // Inject datamanager as dependency
   constructor(dataManager, orderDate) {
     this.dataManager = dataManager;
     this.orderDate = orderDate;
@@ -11,15 +13,17 @@ class WarehouseAutomation {
     this.dataManager.loadProductsData();
   }
 
+  // Generate packing list
   generatePackingList() {
-    const packingTeamAutomation = new PackingTeamAutomation(this.dataManager);
-    const packingList = packingTeamAutomation.generatePackingList();
+    const packingJob = new PackingJob(this.dataManager);
+    const packingList = packingJob.generatePackingList();
     return packingList;
   }
 
+  // Generate picking list
   generatePickingList() {
-    const pickingTeamAutomation = new PickingTeamAutomation(this.dataManager);
-    const pickingList = pickingTeamAutomation.generatePickingList();
+    const pickingJob = new PickingJob(this.dataManager);
+    const pickingList = pickingJob.generatePickingList();
     return pickingList;
   }
 }

@@ -18,18 +18,6 @@ const FurnitureStore: React.FC = () => {
 
   useEffect(() => {
     const determineInitialActiveCategory = () => {
-      const furnitureElements = document.querySelectorAll(".furniture-item");
-
-      furnitureElements.forEach((element) => {
-        const rect = element.getBoundingClientRect();
-        if (
-          rect.top < window.innerHeight / 2 &&
-          rect.bottom >= window.innerHeight / 2
-        ) {
-          return element.getAttribute("data-category");
-        }
-      });
-
       return categories[0];
     };
 

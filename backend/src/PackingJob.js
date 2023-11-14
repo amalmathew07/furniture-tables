@@ -1,8 +1,13 @@
-class PackingTeamAutomation {
+class PackingJob {
   constructor(dataManager) {
     this.dataManager = dataManager;
   }
 
+
+// Logic to generate packing list
+// After the order are retrieved, loop through each of the orders
+// and find out child items for each of the line items in the order 
+// by lookign at the mapping in the childProductMapping file.
   generatePackingList() {
     const packingList = [];
 
@@ -42,4 +47,4 @@ class PackingTeamAutomation {
   }
 }
 
-module.exports = PackingTeamAutomation;
+module.exports = PackingJob;
