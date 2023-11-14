@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import tableData from './tableData.json';
+import tableData from "./tableData.json";
 import "./FurnitureStore.css";
 
 const FurnitureStore: React.FC = () => {
@@ -105,6 +105,10 @@ const FurnitureStore: React.FC = () => {
                     <a href={""}>
                       <div className="image-container">
                         <img src={item.image} alt={item.name} />
+                        <div className="color-container">
+                          <span className="color-name">{item.color}</span>
+                          <div className={`color-display-${item.color}`}></div>
+                        </div>
                       </div>
                     </a>
                     <div className="furniture-details">

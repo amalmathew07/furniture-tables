@@ -4,154 +4,176 @@
     "category": "Coffee Tables",
     "name": "Stella Coffee Table - 1 Unit",
     "price": "$210 or financing",
-    "image": "images/tinywow_1_28381075.webp"
+    "image": "images/tinywow_1_28381075.webp",
+    "color": "Oak"
   },
   {
     "id": 2,
     "category": "Coffee Tables",
     "name": "Stella Coffee Tables - 2 Units",
     "price": "$420 or financing",
-    "image": "images/tinywow_2_28381081.webp"
+    "image": "images/tinywow_2_28381081.webp",
+    "color": "Walnut"
   },
   {
     "id": 3,
     "category": "Coffee Tables",
     "name": "Pluto Coffee Table",
     "price": "$135 or financing",
-    "image": "images/tinywow_3_28381089.webp"
+    "image": "images/tinywow_3_28381089.webp",
+    "color": "Black"
   },
   {
     "id": 4,
     "category": "Coffee Tables",
     "name": "Stella Coffee Tables - 3 Units",
     "price": "$630 or financing",
-    "image": "images/tinywow_4_28381113.webp"
+    "image": "images/tinywow_4_28381113.webp",
+    "color": "Oak"
   },
   {
     "id": 5,
     "category": "Coffee Tables",
     "name": "Pluto Coffee Table",
     "price": "$135 or financing",
-    "image": "images/tinywow_5_28381124.webp"
+    "image": "images/tinywow_5_28381124.webp",
+    "color": "Walnut"
   },
   {
     "id": 6,
     "category": "Coffee Tables",
     "name": "Stella Coffee Table - 1 Unit",
     "price": "$210 or financing",
-    "image": "images/STELLA LIFT-TOP 1 CLOSED CONFIG 1.webp"
+    "image": "images/STELLA LIFT-TOP 1 CLOSED CONFIG 1.webp",
+    "color": "Walnut"
   },
   {
     "id": 7,
     "category": "Coffee Tables",
     "name": "Stella Coffee Tables - 2 Units",
     "price": "$420 or financing",
-    "image": "images/tinywow_6_28381143.webp"
+    "image": "images/tinywow_6_28381143.webp",
+    "color": "Oak"
   },
   {
     "id": 8,
     "category": "Coffee Tables",
     "name": "Stella Coffee Tables - 3 Units",
     "price": "$630 or financing",
-    "image": "images/STELLA LIFT-TOP 3 CLOSED CONFIG 3.webp"
+    "image": "images/STELLA LIFT-TOP 3 CLOSED CONFIG 3.webp",
+    "color": "Walnut"
   },
   {
     "id": 9,
     "category": "Side Tables",
     "name": "Solis Adjustable Table",
     "price": "$180 or financing",
-    "image": "images/tinywow_7_28381247.webp"
+    "image": "images/tinywow_7_28381247.webp",
+    "color": "Black"
   },
   {
     "id": 10,
     "category": "Side Tables",
     "name": "Solis Adjustable Table",
     "price": "$180 or financing",
-    "image": "images/tinywow_8_28381358.webp"
+    "image": "images/tinywow_8_28381358.webp",
+    "color": "Twilight"
   },
   {
     "id": 11,
     "category": "Side Tables",
     "name": "Solis Adjustable Table",
     "price": "$180 or financing",
-    "image": "images/tinywow_9_28381369.webp"
+    "image": "images/tinywow_9_28381369.webp",
+    "color": "Twilight"
   },
   {
     "id": 99,
     "category": "Side Tables",
     "name": "Stella Coffee Table - 1 Unit",
     "price": "$210 or financing",
-    "image": "images/STELLA LIFT-TOP 1 CLOSED CONFIG 1.webp"
+    "image": "images/STELLA LIFT-TOP 1 CLOSED CONFIG 1.webp",
+    "color": "Walnut"
   },
   {
     "id": 100,
     "category": "Side Tables",
     "name": "Stella Coffee Table - 1 Unit",
     "price": "$210 or financing",
-    "image": "images/tinywow_1_28381075.webp"
+    "image": "images/tinywow_1_28381075.webp",
+    "color": "Oak"
   },
   {
     "id": 101,
     "category": "Side Tables",
     "name": "Pluto Side Table",
     "price": "$85 or financing",
-    "image": "images/tinywow_10_28381395.webp"
+    "image": "images/tinywow_10_28381395.webp",
+    "color": "Walnut"
   },
   {
     "id": 102,
     "category": "Side Tables",
     "name": "Pluto Side Table",
     "price": "$85 or financing",
-    "image": "images/tinywow_11_28381418.webp"
+    "image": "images/tinywow_11_28381418.webp",
+    "color": "Walnut"
   },
   {
     "id": 12,
     "category": "Media Units",
     "name": "Stella Media Unit - 3 Units",
     "price": "$475 or financing",
-    "image": "images/tinywow_22_28385308.webp"
+    "image": "images/tinywow_22_28385308.webp",
+    "color": "Oak"
   },
   {
     "id": 103,
     "category": "Media Units",
     "name": "Stella Media Unit - 3 Units",
     "price": "$475 or financing",
-    "image": "images/tinywow_20_28385292.webp"
+    "image": "images/tinywow_20_28385292.webp",
+    "color": "Walnut"
   },
   {
     "id": 104,
     "category": "Media Units",
     "name": "Stella Media Unit - 3 Units | No Doors",
     "price": "$435 or financing",
-    "image": "images/STELLA TV 3 HOLE (1).webp"
+    "image": "images/STELLA TV 3 HOLE (1).webp",
+    "color": "Walnut"
   },
   {
     "id": 105,
     "category": "Media Units",
     "name": "Stella Media Unit - 4 Units",
     "price": "$435 or financing",
-    "image": "images/STELLA TV 4 DOOR-HOLE-HOLE-DOOR.webp"
+    "image": "images/STELLA TV 4 DOOR-HOLE-HOLE-DOOR.webp",
+    "color": "Walnut"
   },
   {
     "id": 106,
     "category": "Media Units",
     "name": "Stella Media Unit - 4 Units",
     "price": "$620 or financing",
-    "image": "images/tinywow_16_28381530.webp"
+    "image": "images/tinywow_16_28381530.webp",
+    "color": "Walnut"
   },
   {
     "id": 107,
     "category": "Media Units",
     "name": "Stella Media Unit - 4 Units",
     "price": "$620 or financing",
-    "image": "images/tinywow_13_28381505.webp"
+    "image": "images/tinywow_13_28381505.webp",
+    "color": "Walnut"
   },
   {
     "id": 108,
     "category": "Media Units",
     "name": "Stella Media Unit - 3 Units",
     "price": "$475 or financing",
-    "image": "images/tinywow_15_28381520.webp"
+    "image": "images/tinywow_15_28381520.webp",
+    "color": "Oak"
   },
   {
     "id": 71,
@@ -159,7 +181,8 @@
     "name": "Pluto Table Set | 1 Coffee Table & 1 Side Table",
     "price": "$195",
     "image": "images/tinywow_17_28385269.webp",
-    "discount": "10%"
+    "discount": "10%",
+    "color": "Walnut"
   },
   {
     "id": 110,
@@ -167,7 +190,8 @@
     "name": "Pluto Table Set | 1 Coffee Table & 2 Side Tables",
     "price": "$225",
     "image": "images/tinywow_18_28385277.webp",
-    "discount": "15%"
+    "discount": "15%",
+    "color": "Walnut"
   },
   {
     "id": 111,
@@ -175,7 +199,8 @@
     "name": "Stella Table Set | 2-Unit Media & 2-Unit Coffee Table",
     "price": "$505",
     "image": "images/tinywow_20_28385292.webp",
-    "discount": "15%"
+    "discount": "15%",
+    "color": "Walnut"
   },
   {
     "id": 112,
@@ -183,7 +208,8 @@
     "name": "Stella Table Set | 2-Unit Media & 1 Side Table",
     "price": "$465",
     "image": "images/tinywow_21_28385302.webp",
-    "discount": "10%"
+    "discount": "10%",
+    "color": "Walnut"
   },
   {
     "id": 113,
@@ -191,7 +217,8 @@
     "name": "Stella Table Set | 3-Unit Media & 2-Unit Coffee Table",
     "price": "$715",
     "image": "images/tinywow_22_28385308.webp",
-    "discount": "10%"
+    "discount": "10%",
+    "color": "Oak"
   },
   {
     "id": 114,
@@ -199,6 +226,7 @@
     "name": "Stella Table Set | 3-Unit Media & 1 Side Table",
     "price": "$580",
     "image": "images/tinywow_23_28385315.webp",
-    "discount": "20%"
+    "discount": "20%",
+    "color": "Oak"
   }
 ]
